@@ -10,7 +10,9 @@ Hand in week 3 Linux and Python Programming
 
 def main():
     
-    inFile = getInFile('C:\\Users\\Tycho\\Documents\\linux en python\\bashrc.txt')
+    fileName = 'C:\\Users\\Tycho\\Documents\\linux en python\\bashrc.txt'
+    with open(fileName,'r') as f:
+        inFile = f.readlines()
     print "printing character 2 of line 6: " + inFile[5][2]
     
     print "The file contains " + str(len(inFile)) + " lines."
