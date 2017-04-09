@@ -1,0 +1,18 @@
+'''
+Created on Mar 30, 2017
+
+@author: Tycho
+'''
+import numpy as np
+
+
+def main():
+    print "hello world"
+    wineDataTrain = np.load("redwine_training.txt") 
+    wineDataTest = np.load("redwine_testing.txt") 
+
+
+
+
+if __name__ == '__main__':
+    main()

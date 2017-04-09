@@ -1,0 +1,19 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Tycho\Documents\git\.metadata\.plugins\org.eclipse.core.resources\.projects\Datasciense Asignment2\com.python.pydev.analysis\v2_indexcache
+AsignmentTwo|1489276182773193000|C:\Users\Tycho\Documents\git\Datasciense Asignment2\src\AsignmentTwo.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=AsignmentTwo
+-- END DICTIONARY
+-- START TREE 1
+4
+app|1|applyNNClassifier!10@
+get|2|getKbest!10@getData!10@
+mai|1|main!10@
+nor|1|normalizeData!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

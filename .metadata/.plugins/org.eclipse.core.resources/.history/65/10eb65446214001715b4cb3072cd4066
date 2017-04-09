@@ -1,0 +1,294 @@
+'''
+Created on Mar 22, 2017
+
+    @author: Tycho
+    '''
+import matplotlib.pyplot as plt
+import matplotlib.cm as cmx
+import matplotlib.colors as colors
+import math
+import numpy as np
+
+
+def main():
+    print "hello world"
+    fileName = "Chimpanzee_allele_freq.txt"
+    with open(fileName,'r') as f:
+        inFile = f.readlines()
+    windows = getWindows(inFile, 10)
+    STfsts, SVfsts, TVfsts, positions = getFsts(windows)
+    STavarage, SVavarage, TVavarage = getMeans(STfsts, SVfsts, TVfsts)
+    STstd, SVstd, TVstd = getStds(STfsts, SVfsts, TVfsts)
+    
+    pbsSs, pbsTs, pbsVs = calcPBS(STfsts, SVfsts, TVfsts)
+    pbsSmean, pbsTmean, pbsVmean = getMeans(pbsSs, pbsTs, pbsVs)
+    pbsSstd, pbsTstd, pbsVstd = getStds(pbsSs, pbsTs, pbsVs)
+    
+        
+    
+    getMaxPbs(pbsTs, positions, 500)
+#     plotPerChromosome(pbsSs, positions, "PBS value: Schwein")
+#     plotPerChromosome(pbsTs, positions, "PBS value: Trogr")
+#     plotPerChromosome(pbsVs, positions, "PBS value: Verus")
+#     
+
+
+#     STnormalized = normalizeData(STfsts, STavarage, STstd)
+#     SVnormalized = normalizeData(SVfsts, SVavarage, SVstd)
+#     TVnormalized = normalizeData(TVfsts, TVavarage, TVstd)
+#     Snormalized, Tnormalized, Vnormalized = calcPBS(STnormalized, SVnormalized, TVnormalized)
+#     pbsSnormalized = normalizeData(pbsSs, pbsSmean, pbsSstd)
+#     pbsTnormalized = normalizeData(pbsTs, pbsTmean, pbsTstd)
+#     pbsVnormalized = normalizeData(pbsVs, pbsVmean, pbsVstd)    
+    print "ST: " + str(STavarage)
+    print "SV: " + str(SVavarage)
+    print "TV: " + str(TVavarage)
+    
+    print "Done!"
+
+
+def getMaxPbs(data, positions, n):
+    dataDict = {}
+    maxPbs = {}
+    for i in range(len(data)):
+        for j in range(len(data[i])):
+            dataDict [data[i][j]] = str(str(i+1)+"\t"+str(positions[i][j]))
+    maxVals = sorted(dataDict.keys(), reverse = True)[:n]
+
+    for val in maxVals:
+        maxPbs[val] = dataDict[val]
+        print str(val) +"\t" + dataDict[val]
+    
+    
+
+
+def getMeans(first, second, third):
+    #Don't actually have to be fsts values, pbs also allowed.
+    print "Calculating means..."
+    firstAvarage = []  #One
+    secondAvarage = []  #Two
+    thirdAvarage = []  #Three
+    for i in range(len(first)):
+        for j in range(len(first[i])):
+            firstAvarage.append(first[i][j])
+            secondAvarage.append(second[i][j])
+            thirdAvarage.append(third[i][j])
+    firstAvarage = np.mean(firstAvarage)
+    secondAvarage = np.mean(secondAvarage)
+    thirdAvarage = np.mean(thirdAvarage)
+    return firstAvarage, secondAvarage, thirdAvarage
+    
+def getStds(first, second, third):
+    #Don't actually have to be fsts values, pbs also allowed.
+    print "Calculating stds..."
+    firstStd = []  #One
+    secondStd = []  #Two
+    thirdStd = []  #Three
+    for i in range(len(first)):
+        for j in range(len(first[i])):
+            firstStd.append(first[i][j])
+            secondStd.append(second[i][j])
+            thirdStd.append(third[i][j])
+    firstStd = np.std(firstStd)
+    secondStd = np.std(secondStd)
+    thirdStd = np.std(thirdStd)
+    
+    
+    return firstStd, secondStd, thirdStd
+    
+    
+    
+    
+def normalizeData(data, mean, sd):
+    #(X - mean )/ sd
+    normalizedData = []
+    for i in range(len(data)):
+        temp = []
+        for j in range(len(data[i])):
+            x = float((data[i][j] - mean)) / sd
+            temp.append(x)
+        normalizedData.append(temp)
+    return normalizedData
+    
+def calcPBS(STfsts, SVfsts, TVfsts):
+    print "Calculating PBSs\n"
+    pbsSs = []
+    pbsTs = []
+    pbsVs = []
+    
+    for i in range(len(STfsts)):
+        pbsS = []
+        pbsT = []
+        pbsV = []
+                
+        for j in range(len(STfsts[i])):
+            tST = math.log10(1-STfsts[i][j])*-1
+            tSV = math.log10(1-SVfsts[i][j])*-1
+            tTV = math.log10(1-TVfsts[i][j])*-1
+            
+            S = (tST + tSV - tTV) / 2
+            T = (tST + tTV - tSV) / 2
+            V = (tSV + tTV - tST) / 2
+            
+            pbsS.append(S)
+            pbsT.append(T)
+            pbsV.append(V)
+        pbsSs.append(pbsS)
+        pbsTs.append(pbsT)
+        pbsVs.append(pbsV)
+    return pbsSs, pbsTs, pbsVs
+
+def plotPerChromosome(data, positions, title = ""):
+    print "todo: plot things"
+    colMap = get_cmap(22)
+    ind = 0
+    indsAll = []
+    
+    for i in range(len(data)):
+        inds = []
+        for j in range(len(data[i])):
+            inds.append(ind)
+            ind += 1
+        indsAll.append(inds)
+    
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    x_labels = []
+    x_labels_pos = []
+    
+    for idx, chromosome in enumerate(data):
+        print "\r{0}".format((float(idx)/len(data))*100)
+        x = indsAll[idx]
+        ax.scatter(x,chromosome,s = 5, color = colMap(int(idx)))
+        x_labels.append("chr-" + str(idx))
+        x_labels_pos.append(np.mean(indsAll[idx]))
+    
+    ax.set_xticks(x_labels_pos)
+    ax.set_xticklabels(x_labels)
+#     plt.ylim(0,0.1)
+    plt.xlabel("Chromosomes...")
+    plt.title(title)
+    plt.show()
+    
+def plotAll(data, positions, title = ""):
+    print "Plot PBSs"
+    
+    colMap = get_cmap(22)    
+    for idx, chromosome in enumerate(data):
+        print "\r{0}".format((float(idx)/len(data))*100)
+        plt.scatter(positions[idx],chromosome,s = 5, color = colMap(int(idx)))
+    plt.xlabel("Position in chromosome")
+    plt.title(title)
+    plt.show()
+
+    
+    
+def get_cmap(N):
+    '''Returns a function that maps each index in 0, 1, ... N-1 to a distinct 
+    RGB color.'''
+    color_norm  = colors.Normalize(vmin=0, vmax=N-1)
+    scalar_map = cmx.ScalarMappable(norm=color_norm, cmap='hsv') 
+    def map_index_to_rgb_color(index):
+        return scalar_map.to_rgba(index)
+    return map_index_to_rgb_color
+
+    
+def getWindows(inFile, s):
+    windows = []
+    window = []
+    for idx, line in enumerate(inFile):
+        line = line[:-1]
+        if line[0] != "#":
+            if idx + s < len(inFile):
+                if inFile[idx+s][0] == inFile[idx][0]:
+                    window = inFile[idx:idx+s]
+                    windows.append(window)
+    print "Created " + str(len(windows)) + " windows."
+    return windows
+    
+def getFsts(windows):
+    STfstsTemp = []
+    STfsts = []
+    
+    SVfstsTemp = []
+    SVfsts = []
+    
+    TVfstsTemp = []
+    TVfsts = []
+    
+    positionsTemp = []
+    positions = []
+    
+    chromosomeCurrent = 1
+    print "Calculating FSTs..."
+    for window in windows:
+        fst = 0
+        STavarage = []
+        SVavarage = []
+        TVavarage = []
+        positionAvarage = 0
+        chromosome = int(window[0].split("\t")[0])
+        for snp in window:
+            snp = snp.split("\t")
+            positionAvarage += int(snp[1])
+            schweinFreq = snp[-3].split(",")[1]
+            troglFreq = snp[-2].split(",")[1]
+            verusFreq = snp[-1].split(",")[1]
+            
+            STavarage.append(calcFst(float(schweinFreq), float(troglFreq)))
+            SVavarage.append((float(schweinFreq), float(verusFreq)))
+            TVavarage.append(calcFst(float(troglFreq), float(verusFreq)))
+        STavarage = np.mean(filter(lambda a: a != None, STavarage))
+        SVavarage = np.mean(filter(lambda a: a != None, SVavarage))
+        TVavarage = np.mean(filter(lambda a: a != None, TVavarage))
+        
+#         print STavarage
+        positionAvarage = positionAvarage / len(window)
+        
+        if math.isnan(STavarage) or math.isnan(SVavarage) or math.isnan(TVavarage):
+            continue
+        if chromosomeCurrent == chromosome:
+            STfstsTemp.append(STavarage)
+            SVfstsTemp.append(SVavarage)
+            TVfstsTemp.append(TVavarage)
+            positionsTemp.append(positionAvarage)
+        else:
+            chromosomeCurrent = chromosome
+            STfsts.append(STfstsTemp)
+            SVfsts.append(SVfstsTemp)
+            TVfsts.append(TVfstsTemp)
+            positions.append(positionsTemp)
+            positionsTemp = []
+            STfstsTemp = []
+            SVfstsTemp = []
+            TVfstsTemp = []
+            STfstsTemp.append(STavarage)
+            SVfstsTemp.append(SVavarage)
+            TVfstsTemp.append(TVavarage)
+            positionsTemp.append(positionAvarage)
+    
+    print "Done."
+    return STfsts, SVfsts, TVfsts, positions
+    
+
+def calcFst(fa1,fa2):
+    if fa1 + fa2 == 2:
+        return 0
+    elif fa1 + fa2 == 0:
+        return None
+    
+    #test
+    if fa1 != 0.5:
+        fa1 = abs(fa1 - 0.5)
+    if fa2 != 0.5:
+        fa2 = abs(fa2 - 0.5)
+    
+    hs = fa1*(1-fa1) + fa2 * (1-fa2)
+    s = abs(fa1 - fa2)
+    ht = hs + (s*0.5)
+    
+    fst = (ht - hs) / ht
+    return fst
+
+if __name__ == '__main__':
+    main()

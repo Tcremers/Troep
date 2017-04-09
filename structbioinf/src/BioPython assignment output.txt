@@ -1,0 +1,17 @@
+Parsing PDB file...
+C:\Python27\lib\site-packages\Bio\PDB\StructureBuilder.py:85: PDBConstructionWarning: WARNING: Chain E is discontinuous at line 2692.
+  PDBConstructionWarning)
+C:\Python27\lib\site-packages\Bio\PDB\StructureBuilder.py:85: PDBConstructionWarning: WARNING: Chain I is discontinuous at line 2815.
+  PDBConstructionWarning)
+Done.
+
+Coordinates of C-alpha atom of residue 20, chain E: 
+[ 22.06599998  57.08800125  10.98999977]
+Geometric central coordinate of residue 20, chain E: 
+[21.148333549499512, 55.633167266845703, 12.897250016530355]
+
+
+Coordinates of C-alpha atom of residue 13, chain I: 
+[ 17.97200012  78.22200012  20.07799911]
+Geometric central coordinate of residue 13, chain I: 
+[17.48057120186942, 78.512716020856587, 20.378428595406668]

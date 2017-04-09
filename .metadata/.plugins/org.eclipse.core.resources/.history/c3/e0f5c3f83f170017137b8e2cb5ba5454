@@ -1,0 +1,173 @@
+'''
+Created on Apr 2, 2017
+
+@author: Tycho
+Data science asignment 5
+Excercise 6
+Logistic regression
+'''
+from __future__ import division
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+import random
+
+
+def main():
+    print "Doing logistic regression things."
+    
+    #Iris 2D1 train and test: sepel length, sepel width
+    irisTrainOnePath = "Iris2D1_train.txt" 
+    xIrisTrainOne, yIrisTrainOne = getData(irisTrainOnePath) 
+    
+    irisTestOnePath = "Iris2D1_test.txt"
+    xIrisTestOne, yIrisTestOne = getData(irisTestOnePath)
+    
+    #Iris 2D2 train and test: sepel length, petal length
+    irisTrainTwoPath = "Iris2D2_train.txt"
+    xIrisTrainTwo, yIrisTrainTwo = getData(irisTrainTwoPath)
+    
+    irisTestTwoPath = "Iris2D2_test.txt"
+    xIrisTestTwo, yIrisTestTwo = getData(irisTestTwoPath)
+    
+    logisticRegression(xIrisTrainOne, yIrisTrainOne, xIrisTestOne)
+    
+#     scatterPlotIrisData(xIrisTrainOne, yIrisTrainOne, "Iris 2D1 training data.", "sepel length", "sepel width")
+#     scatterPlotIrisData(xIrisTestOne, yIrisTestOne, "Iris 2D1 test data.", "sepel length", "sepel width")
+#     scatterPlotIrisData(xIrisTrainTwo, yIrisTrainTwo, "Iris 2D2 training data.", "sepel length", "petal length")
+#     scatterPlotIrisData(xIrisTestTwo, yIrisTestTwo, "Iris 2D2 test data.", "sepel length", "petal length")
+
+
+def getData(filePath):
+    '''
+    Retrieve the iris data from the given file path and return the x and y vectors. 
+    '''
+    file = np.loadtxt(filePath)    
+    x = file[:, :-1]
+    y = file[:, -1]
+    return x, y
+
+
+
+def logisticRegression(xTrain, training_iris_labels, test_data_matrix):
+    N, num_feat = xTrain.shape
+    onevec = np.ones((N,1))
+    #Append a column of ones to the data matrix
+    X = np.concatenate((onevec, xTrain), axis = 1)
+    # Let's turn the admission labels into +/- 1 labels
+    y = (training_iris_labels-0.5)*2
+    np.random.seed(0)
+    
+    w = 0.1*np.random.randn(num_feat + 1)
+    L = logistic_insample(X, y, w)
+    G = logistic_gradient(X,y,w)
+    
+    max_iter = 1000
+    grad_threshold = 0.000
+    gradient_descent(xTrain, training_iris_labels, max_iter, grad_threshold)
+    print G
+
+def logistic(input):
+    out = np.exp(input)/(1 + np.exp(input))
+    return out
+
+def logistic_insample(X, y, w):
+    N, num_feat = X.shape
+    E = 0
+#     print(y[0]*np.dot(w,X[0,:]))
+    for n in range(N):
+        E += (1/N)*np.log(1 + np.exp(-y[n]*np.dot(w,X[n,:])))
+    return E
+
+
+def logistic_gradient(X, y, w):
+    N, _ = X.shape
+    g = 0*w
+    for n in range(N):
+        g += ((-1/N)*y[n]*X[n,:])*logistic(-y[n]*np.dot(w, X[n,:]))
+    return g
+
+
+def gradient_descent(Xorig, y, max_iter, grad_threshold):   
+    
+    # X is a d by N data matrix of input values
+    num_pts, num_feat = Xorig.shape
+    onevec = np.ones((num_pts,1))
+    X = np.concatenate((onevec, Xorig), axis = 1)
+    dplus1 = num_feat + 1
+        
+    # y is a N by 1 matrix of target values -1 and 1
+    y = np.array((y-.5)*2)
+        
+    # Initialize learning rate for gradient descent
+    learningrate = 0.01        
+    
+    # Initialize weights at time step 0    
+    w = 0.1*np.random.randn(num_feat + 1)
+    
+    # Compute value of logistic log likelihood
+    value = logistic_insample(X,y,w)
+    
+    num_iter = 0  
+    convergence = 0
+    
+    # Keep track of function values
+    E_in = []
+    
+    while convergence == 0:
+        num_iter = num_iter + 1                        
+
+        # Compute gradient at current w      
+        g = logistic_gradient(X,y,w)
+       
+        # Set direction to move       
+        v = -g
+                     
+        # Update weights
+        w_new = w + learningrate*v
+       
+        # Check for improvement
+        # Compute in-sample error for new w
+        cur_value = logistic_insample(X,y,w_new)
+        if cur_value < value:
+            w = w_new
+            value = cur_value
+            E_in.append(value)
+            learningrate *=1.1
+        else:
+            learningrate *= 0.9   
+            
+        # Determine whether we have converged: Is gradient norm below
+        # threshold, and have we reached max_iter?
+        g_norm = np.linalg.norm(g)
+        if g_norm < grad_threshold:
+            convergence = 1
+        elif num_iter > max_iter:
+            convergence = 1
+           
+    return w, E_in 
+
+
+
+
+
+
+
+def scatterPlotIrisData(x, y, title, xlabel, ylabel):
+    '''
+    Scatter plot the given vectors (x) from the iris data matrix and assign colors to the specific labels (y).
+    '''
+    addTitle = "\n class 1 = red, class 2 = blue."
+    for i in range(len(x)):
+        if y[i] == 1:
+            plt.scatter(x[i][0],x[i][1], c = "red")
+        elif y[i] == 0:
+            plt.scatter(x[i][0],x[i][1], c = "blue")
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.title(title + addTitle)
+    plt.show()
+
+
+if __name__ == '__main__':
+    main()

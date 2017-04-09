@@ -1,0 +1,33 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Tycho\Documents\git\.metadata\.plugins\org.eclipse.core.resources\.projects\Datasciense Asignment5\com.python.pydev.analysis\v2_indexcache
+AsignmentFive|1490865368404837000|C:\Users\Tycho\Documents\git\Datasciense Asignment5\src\AsignmentFive.py
+LogisticRegression|1491100114103218000|C:\Users\Tycho\Documents\git\Datasciense Asignment5\src\LogisticRegression.py
+gradientDecent|1491088262462294000|C:\Users\Tycho\Documents\git\Datasciense Asignment5\src\gradientDecent.py
+multivarlinreg|1490885793400334000|C:\Users\Tycho\Documents\git\Datasciense Asignment5\src\multivarlinreg.py
+randomForests|1490879384472314000|C:\Users\Tycho\Documents\git\Datasciense Asignment5\src\randomForests.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+1=gradientDecent
+3=LogisticRegression
+4=AsignmentFive
+5=multivarlinreg
+2=randomForests
+-- END DICTIONARY
+-- START TREE 1
+10
+der|1|derivativeFunction!10@
+fun|1|func!10@
+get|2|getData!18@getData!26@
+gra|2|gradientDescent!10@gradient_descent!26@
+log|5|logistic!26@logisticRegression!26@logistic_gradient!26@logistic_insample!26@log_pred!26@
+mai|5|main!34@main!18@main!26@main!10@main!42@
+mul|1|multivarlinreg!42@
+pre|1|predictScores!42@
+rms|1|rmse!42@
+sca|1|scatterPlotIrisData!26@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

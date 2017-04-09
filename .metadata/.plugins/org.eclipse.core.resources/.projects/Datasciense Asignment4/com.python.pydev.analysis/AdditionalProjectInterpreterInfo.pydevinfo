@@ -1,0 +1,23 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Tycho\Documents\git\.metadata\.plugins\org.eclipse.core.resources\.projects\Datasciense Asignment4\com.python.pydev.analysis\v2_indexcache
+AsignmentFour|1490495028403363000|C:\Users\Tycho\Documents\git\Datasciense Asignment4\src\AsignmentFour.py
+AsignmentFour_ExerciseFour|1490493426268787000|C:\Users\Tycho\Documents\git\Datasciense Asignment4\src\AsignmentFour_ExerciseFour.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=AsignmentFour
+2=AsignmentFour_ExerciseFour
+-- END DICTIONARY
+-- START TREE 1
+6
+doc|1|doCellPca!10@
+dop|1|doPca!18@
+dot|1|doToyDataPca!10@
+get|4|getMean!10@getClusterCenters!18@getVectors!10@getData!10@
+mai|2|main!18@main!10@
+plo|1|plotCells!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

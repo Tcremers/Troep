@@ -1,0 +1,133 @@
+'''
+Created on Mar 30, 2017
+
+@author: Tycho
+
+Data science asignment 5
+Excercise 5
+Ramdom forests
+'''
+import numpy as np
+import numpy.matlib
+import matplotlib.pyplot as plt
+import math
+import random
+
+
+def main():
+    Mean = [2,3]
+    Sigma = np.array([[5, 1], [1, 2]])
+    
+    # Set seed point for reproducible random samples
+    np.random.seed(1)
+    
+    x, y = np.random.multivariate_normal(Mean, Sigma, 100).T
+    
+    X = np.array([x,y])
+    print len(np.shape(x))
+    first_principal_component(x)
+    
+
+def first_principal_component(X):
+#     dims, size = np.shape(X)
+#     print dims
+
+    if len(np.shape(X)) == 1:
+        dims = 1
+        size  = np.shape(X)[0]
+    else:
+        dims = np.shape(X)[0]
+        size = np.shape(X)[1]
+      
+    # Center the data
+    data_mean = np.mean(X,1)
+    centered_data = X - np.matlib.repmat(data_mean, size, 1).T
+    
+    # Initialize
+    w = np.ones(dims)
+    w = w/np.linalg.norm(w)
+    value = 0
+    
+    learningrate = 0.1
+#     learningrate = 0.01
+#     learningrate = 0.001
+#     learningrate = 0.0001
+    gradx = []
+    grady = []
+    # Setting parameters for convergence check
+    num_iter = 1                   # This is the variable that will keep track of the number of iterations
+    convergence = 0                # This is the variable that will keep track of whether we have converged
+    max_iter = 10000               # We stop the algorithm after this many iterations
+    tolerance = 0.0001             # We conclude convergence when the update difference in the objective function 
+                                   # is less than the tolerance
+    
+    values = []                    # This variable will record the objective function value at each iteration. 
+                                   # Not necessary (and takes up resources) but useful for insight when developing
+                                   
+    while convergence == 0:
+        # Compute gradient and take a step in its direction
+        grad = directional_variance_gradient(centered_data, w)   # Computing variance of objective function
+        cur_value = directional_variance(centered_data, w)       # Computing objective function value at current iteration
+        values.append(cur_value)                                 # Recording objective function value (not necessary)                                                                  
+        
+        # Take a step in the direction of steepest ascent
+        w = w + learningrate*grad
+        w = w/np.linalg.norm(w)
+        
+        if num_iter <= 3:
+            print grad
+#             gradx.append(grad[0])
+#             grady.append(grad[1])
+        if num_iter == 3:
+            break
+        # Checking for convergence
+        num_iter = num_iter + 1        
+        diff = abs(value - cur_value)
+        value = cur_value        
+        
+        if diff < tolerance:
+            convergence = 1
+        elif num_iter > max_iter:
+            convergence = 1                                
+#     plt.scatter(gradx,grady)
+    plt.show()
+    return w, values
+
+def directional_variance(centered_data, w):
+    dotted = np.dot(w,centered_data)
+    squared = dotted ** 2
+    dir_var = sum(squared)
+
+    return dir_var
+
+def directional_variance_gradient(centered_data, w):
+    projection_lengths = np.dot(w,centered_data)
+    grad = 2*np.dot(projection_lengths, centered_data.T)
+    return grad
+
+def remove_projection(X, w):
+        w = np.array(w)
+        proj_lengths = np.dot(w, X) 
+        proj = np.outer(proj_lengths, w)
+        minusproj = np.subtract(X, proj.T)
+        return minusproj
+    
+def principal_components(X, num_components):
+    components = []
+    for _ in range(num_components):
+        component, values = first_principal_component(X)
+        component = np.array(component)        
+        components.append(component)        
+        X = remove_projection(X, component)
+        #print(X.shape)
+        
+    return components    
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()

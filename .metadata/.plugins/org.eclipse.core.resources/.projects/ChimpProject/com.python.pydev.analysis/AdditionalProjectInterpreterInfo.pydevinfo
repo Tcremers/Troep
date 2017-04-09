@@ -1,0 +1,23 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Tycho\Documents\git\.metadata\.plugins\org.eclipse.core.resources\.projects\ChimpProject\com.python.pydev.analysis\v2_indexcache
+calcAlleleFreqs|1490962665720278000|C:\Users\Tycho\Documents\git\ChimpProject\src\calcAlleleFreqs.py
+Test_function_pleaseignore|1491081706124418000|C:\Users\Tycho\Documents\git\ChimpProject\src\Test_function_pleaseignore.py
+calc_PBS_and_FSTs|1490792977724928000|C:\Users\Tycho\Documents\git\ChimpProject\src\calc_PBS_and_FSTs.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=calcAlleleFreqs
+1=calc_PBS_and_FSTs
+-- END DICTIONARY
+-- START TREE 1
+5
+cal|2|calcPBS!10@calcFst!10@
+get|7|getAlleleFreq!18@getMaxPbs!10@getFsts!10@getStds!10@getMeans!10@get_cmap!10@getWindows!10@
+mai|2|main!18@main!10@
+nor|1|normalizeData!10@
+plo|2|plotAll!10@plotPerChromosome!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

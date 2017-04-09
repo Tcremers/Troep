@@ -1,0 +1,28 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Tycho\Documents\git\.metadata\.plugins\org.eclipse.core.resources\.projects\Datasciense Asignment3\com.python.pydev.analysis\v2_indexcache
+clustering|1489290121435635000|C:\Users\Tycho\Documents\git\Datasciense Asignment3\src\clustering.py
+mds|1489288818478694000|C:\Users\Tycho\Documents\git\Datasciense Asignment3\src\mds.py
+aefsrfrgsdrse|1490372778800542000|C:\Users\Tycho\Documents\git\Datasciense Asignment3\src\aefsrfrgsdrse.py
+pca|1489281640889400000|C:\Users\Tycho\Documents\git\Datasciense Asignment3\src\pca.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+3=clustering
+4=mds
+1=aefsrfrgsdrse
+2=pca
+-- END DICTIONARY
+-- START TREE 1
+7
+arr|1|array!11@
+cen|1|centerDataMatrix!18@
+get|2|getData!26@getMatrixMean!18@
+mai|3|main!18@main!26@main!34@
+mds|1|mds!34@
+pca|1|pca!18@
+plo|2|plotPcaData!18@plotData!34@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

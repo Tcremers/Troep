@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Wed Nov 23 11:18:20 CET 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0158-90b1-7bd8-000036603107 
+on database directory C:\Users\Tycho\Documents\git\.metadata\.plugins\de.walware.statet.r.core\db with class loader org.eclipse.osgi.internal.loader.EquinoxClassLoader@34272839[de.walware.3rdparty-org.apache.derby.core:10.10.2000000.b201609261900E46sw(id=498)] 
+Loaded from file:/C:/Users/Tycho/AppData/Eclipse-neon/eclipse/../../../.p2/pool/plugins/de.walware.3rdparty-org.apache.derby.core_10.10.2000000.b201609261900E46sw.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_102-b14
+user.dir=C:\WINDOWS\system32
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\Tycho\Documents\git\.metadata\.plugins\de.walware.ecommons.edb
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Nov 23 11:19:30 CET 2016: Shutting down Derby engine
+----------------------------------------------------------------
+Wed Nov 23 11:19:30 CET 2016:
+Shutting down instance a816c00e-0158-90b1-7bd8-000036603107 on database directory C:\Users\Tycho\Documents\git\.metadata\.plugins\de.walware.statet.r.core\db with class loader org.eclipse.osgi.internal.loader.EquinoxClassLoader@34272839[de.walware.3rdparty-org.apache.derby.core:10.10.2000000.b201609261900E46sw(id=498)] 
+----------------------------------------------------------------

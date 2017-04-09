@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Google Cloud Tools for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/google-cloud-tools-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/GCP-Logo.png&quot; width=&quot;91&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-03-02 15:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-04-04 12:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Google%20Inc.%22&quot;&gt;Google Inc.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/eharold/listings&quot; title=&quot;Elliotte Rusty Harold&quot;&gt;Elliotte Rusty Harold&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Cloud Tools for Eclipse is a Google-sponsored open source plugin that supports the Google Cloud Platform. Cloud Tools for Eclipse enables you to create, import, build, run, debug, and deploy Java servlet applications for the App Engine Standard environment without leaving Eclipse.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 02 Mar 2017 20:40:51 +0000</pubDate>
+ <dc:creator>eharold</dc:creator>
+ <guid isPermaLink="false">3321165 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/google-cloud-tools-eclipse#comments</comments>
+  </item>
+  <item>
+    <title>Tifig</title>
+    <link>http://marketplace.eclipse.org/content/tifig</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/eclipse256_1.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-04-03 15:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-04-04 09:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Institute%20for%20Software%22&quot;&gt;Institute for Software&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tsuter/listings&quot; title=&quot;Toni Suter&quot;&gt;Toni Suter&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Tifig is an Eclipse-based IDE for the Swift programming language. The development of Tifig is still in its early stages, but it already supports features such as &quot;Jump to Definition&quot; and &quot;Open Type&quot;. Note that Tifig requires at least Swift 3.0, because it uses the Swift Package Manager to build programs.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 03 Apr 2017 19:00:00 +0000</pubDate>
+ <dc:creator>tsuter</dc:creator>
+ <guid isPermaLink="false">3377269 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/tifig#comments</comments>
+  </item>
+  <item>
+    <title>AssertJ Assertions Generator</title>
+    <link>http://marketplace.eclipse.org/content/assertj-assertions-generator</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-04-03 13:43&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-04-04 09:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Assertj%22&quot;&gt;Assertj&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/dacarver/listings&quot; title=&quot;David Carver&quot;&gt;David Carver&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plugin helps with the generator of custom assertions for the AssertJ assertions library.   It uses the assertj-assertions-generator.  It generates assertions that are compatible with 1.0.0 of AssertJ or higher.  Assertions can then be checked in with testing code, and enhanced as needed.    Useful for helping to stub out assertions for custom domains and models.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 03 Apr 2017 17:43:50 +0000</pubDate>
+ <dc:creator>dacarver</dc:creator>
+ <guid isPermaLink="false">3377167 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/assertj-assertions-generator#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse Code Recommenders</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-code-recommenders</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_19.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2009-03-11 10:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-04-04 08:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eclipse.org%22&quot;&gt;eclipse.org&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mbruch/listings&quot; title=&quot;Marcel Bruch&quot;&gt;Marcel Bruch&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2 style=&quot;font-size:3em;&quot;&gt;Eclipse Code Recommenders&lt;/h2&gt;
+&lt;p&gt;Eclipse Code Recommenders assists Java developers in learning how to use and extend new APIs by leveraging the information hidden in the source code of existing applications and integrating the gained knowledge back into our day-to-day development tool: Eclipse. It offers:&lt;/p&gt;
+&lt;h2&gt;Intelligent Code Completion&lt;/h2&gt;
+&lt;p&gt;Struggling with a new API? Eclipse Code Recommenders’ award-winning intelligent code completion shows you how other developers have successfully used the API in similar situations. Use it to learn new APIs faster – one &lt;em&gt;ctrl+space&lt;em&gt; at a time.&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://marketplace.eclipse.org/sites/default/files/code-recommenders-call-completion-narrow.png&quot; width=&quot;520px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Code Recommendes supports a wide range of Eclipse APIs but also common classes of the Java Runtime Environment. &lt;a href=&quot;https://www.eclipse.org/recommenders/getting-started/&quot;&gt;Give it a spin...&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Subwords Completion&lt;/h2&gt;
+&lt;p&gt;Unpleased with typing every method name from the very beginning or using camel-case matching? Code Recommenders&#039; Subwords completion allows you to just enter any subword and its abbreviations and still finds what you are looking for. No need to typing &lt;em&gt;get...&lt;/em&gt; and &lt;em&gt;set...&lt;/em&gt; anymore:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://marketplace.eclipse.org/sites/default/files/code-recommenders-subwords-completion-narrow.png&quot; width=&quot;520px&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Extended Javadoc View&lt;/h2&gt;
+&lt;p&gt;Tired of incomplete or outdated documentation? Eclipse Code Recommenders’ extended documentation shows you information that really matters, data-mined straight from the code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://marketplace.eclipse.org/sites/default/files/code-recommenders-apidocs-overrides-narrow.png&quot; width=&quot;520px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The Extended API documentation view in Eclipse offers you a wide range of additional API information like which methods developers typically override, which methods they usually invoke on an object, code snippets and many things more...&lt;/p&gt;
+&lt;h2&gt;Snipmatch Code Snippet Search&lt;/h2&gt;
+&lt;p&gt;Often times, using an API correctly is more than selecting the right method, right? what is needed is an entire code snippet. Snipmatch lets you search a growing repository for the snippets you need. Moreover, the Snipmatch project develops tools that make it easy to contribute back to the community, be it by writing new snippets or improving existing ones.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://marketplace.eclipse.org/sites/default/files/code-recommenders-snipmatch-completion.png&quot; width=&quot;520px&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Additional Links&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://eclipse.org/recommenders/manual/&quot;&gt;User Manual&lt;/a&gt;
+&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://eclipse.org/recommenders/getting-started/&quot;&gt;Getting Started Guide&lt;/a&gt;
+&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://eclipse.org/recommenders/faq/&quot;&gt;FAQ&lt;/a&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.5.0&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.5.0&lt;/a&gt; - under development (&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.5.0&amp;amp;bug_status=NEW&amp;amp;bug_status=ASSIGNED&amp;amp;bug_status=REOPENED&quot;&gt;open bugs&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.4.7&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.4.7&lt;/a&gt; - under development (&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.4.7&amp;amp;bug_status=NEW&amp;amp;bug_status=ASSIGNED&amp;amp;bug_status=REOPENED&quot;&gt;open bugs&lt;/a&gt;)&lt;/li&gt;
+&lt;!--  old releases --&gt;&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.4.6&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.4.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.4.5&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.4.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.4.4&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.4.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.4.3&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.4.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.4.2&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.4.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.4.1&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.4.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.4.0&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.4.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.3.3&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.3.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.3.2&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.3.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.3.1&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.3.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.3.0&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.3.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.2.6&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.2.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.2.5&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.2.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.2.4&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.2.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.2.3&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.2.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.2.2&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.2.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.2.1&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.2.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.2.0&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.14&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.13&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.12&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.11&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.10&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.9&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.8&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.7&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.6&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.5&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.4&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.3&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.2&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.1&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.1.0&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.1.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.0.7&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.0.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.0.6&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.0.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.0.5&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.0.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?product=Recommenders&amp;amp;target_milestone=2.0.4&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&quot;&gt;v2.0.4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Have a feature request? Found a bug?&lt;/h2&gt;
+&lt;p&gt;Report it to our &lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Recommenders&amp;amp;version=2.1.0&amp;amp;bug_severity=enhancement&amp;amp;short_desc=Your%20short%20description&amp;amp;comment=A%20longer%20description&amp;amp;component=Core&amp;amp;rep_platform=All&amp;amp;op_sys=All&quot;&gt;Bugzilla&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;You like Code Recommenders?&lt;/h2&gt;
+&lt;p&gt;Then &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;add your review below,&lt;/li&gt;
+&lt;li&gt;add it to your marketplace favorites, and&lt;/li&gt;
+&lt;li&gt;help spread the word...&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 11 Mar 2009 14:02:10 +0000</pubDate>
+ <dc:creator>mbruch</dc:creator>
+ <guid isPermaLink="false">889 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-code-recommenders#comments</comments>
+  </item>
+  <item>
+    <title>RapidClipse</title>
+    <link>http://marketplace.eclipse.org/content/rapidclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/RapidClpse_Cross_Platform_Development_On_Eclipse_80.png&quot; width=&quot;85&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-03-09 06:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-04-04 06:36&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22XDEV%20Software%20Corp.%22&quot;&gt;XDEV Software Corp.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mkett/listings&quot; title=&quot;Markus Kett&quot;&gt;Markus Kett&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;RapidClipse (the visual Eclipse) is a complete Eclipse distribution for Rapid Java and Cross-Platform-Development. &lt;/p&gt;
+&lt;p&gt;All of the essential tools and plugins for Java development are already preinstalled, preconfigured and optimally matched to each other, e.g. Java SE, JPA, JBoss Hibernate tools, Maven, GIT, Vaadin, RapidClipse IDE tools, RapidClipse Framework. No more annoying and time-consuming Eclipse configurations. Just install &amp;amp; get started.&lt;/p&gt;
+&lt;p&gt;RapidClipse provides a HTML5 GUI builder based on Vaadin, improved Hibernate tools, cross-platform-deployment tools for deploying web, mobile and classic Java desktop apps as well as a one click Java Cloud deployment based on Amazon Webservices.&lt;/p&gt;
+&lt;p&gt;The integrated RapidClipse Framework provides a Hibernate databinding, fully Hibernate entity lifecycle management, concepts for authentication and authorization, internationalization, UI persistence, mobile-kit for creating IoT solutions and much more. The framework bases on the Java Standard Edition and is released as open source under AGPL. The license model is similar to the OpenJDK.&lt;/p&gt;
+&lt;p&gt;RapidClipse was made for developing business applications running on all major platforms and devices. Never has Java development with Eclipse been this easy, convenient, and fast.&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt; Additional Tools - Much more than pure Eclipse 
+&lt;/p&gt;&lt;p&gt;-HTML5 GUI builder based on Vaadin&lt;br /&gt;
+-Improved and additional Hibernate tools&lt;br /&gt;
+-RapidClipse Framework&lt;br /&gt;
+-Cross-Platform deployment tools&lt;br /&gt;
+-Java Cloud integration&lt;br /&gt;
+-Comming soon: Jetstream.one (Java In-Memory database) integration&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt; New in Version 3 
+&lt;/p&gt;&lt;p&gt;-Eclipse Neon&lt;br /&gt;
+-Hibernate 5 integration&lt;br /&gt;
+-Complete new written GUI builder&lt;br /&gt;
+-New menu wizard&lt;br /&gt;
+-New JPA query language JPA-SQL with code editor&lt;br /&gt;
+-RapidClipse Framework: New Mobile-Kit for creating IoT solutions&lt;br /&gt;
+-Java Cloud deployment&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt; Our goals 
+&lt;/p&gt;&lt;p&gt;-Make Eclipse a visual Java IDE similar to Visual Basic and 4gl tools&lt;br /&gt;
+-No more time-consuming Eclipse configurations&lt;br /&gt;
+-Simplify the entire application development process with Java and Eclipse radically&lt;br /&gt;
+-Enable Java beginners, especially 4gl developers switching over to Java to use it instantly&lt;br /&gt;
+-Faster results&lt;br /&gt;
+-Cross-Platform-Development&lt;br /&gt;
+-HTML5 UI development similar to good old Java Swing&lt;br /&gt;
+-Eliminate as much technical complexities as possible&lt;br /&gt;
+-Enable developers to concentrate on business logic&lt;br /&gt;
+-Generate clean and well structured code&lt;br /&gt;
+-Allow generated code and framework features to be replaced by custom implementations at any time&lt;br /&gt;
+-Provide a scalable architecture and powerful application infrastructure to build on&lt;br /&gt;
+-Use Java standards or accepted defacto standards and tools that are accepted by Java architects&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt; Target Group 
+&lt;/p&gt;&lt;p&gt;-Application developers who want to concentrate on business logic&lt;br /&gt;
+-Java developers who are not JPA / Hibernate professionals&lt;br /&gt;
+-4gl developers who want to switch over to Java&lt;br /&gt;
+-Java beginners in general&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt; RapidClipse is free 
+&lt;/p&gt;&lt;p&gt;RapidClipse is available as a fully prepared Eclipse distribution addressed to Eclipse beginner and as a common Eclipse plugin as well. The separate framework is also available on GitHub.&lt;/p&gt;
+&lt;p&gt;Follow us on Twitter: @RapidClipse&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 09 Mar 2016 11:13:13 +0000</pubDate>
+ <dc:creator>mkett</dc:creator>
+ <guid isPermaLink="false">2762797 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/rapidclipse#comments</comments>
+  </item>
+  <item>
+    <title>DBeaver</title>
+    <link>http://marketplace.eclipse.org/content/dbeaver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/dbeaver_head_new.png&quot; width=&quot;73&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2012-11-04 11:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-04-04 03:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Jkiss%22&quot;&gt;Jkiss&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sriderdp1/listings&quot; title=&quot;Serge Rider&quot;&gt;Serge Rider&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;DBeaver is free universal SQL client/database tool for developers and database administrators.&lt;/p&gt;
+&lt;p&gt;It can work with any database server which has JDBC driver. It supports pluggable extensions.&lt;br /&gt;
+Version 3.x has special extensions for:&lt;br /&gt;
+MySQL, Oracle, DB2, PostgreSQL, SQL Server, Sybase, Exasol, Informix, Teradata, Vertica, Netezza, Phoenix, Firebird, Derby, H2, WMI, Cassandra, MongoDB, Redis.&lt;/p&gt;
+&lt;p&gt;Features: Database metadata browser, metadata editor (tables, columns, keys, indexes), SQL statements/scripts execution, SQL highlighting, autocompletion, hyperlinks in SQL editor, Result set/table view/edit/search, BLOB/CLOB view/edit support, scrollable resultsets, data (tables, query results) export and import, transactions management, database search, ER diagrams, automatic drivers download, etc.&lt;/p&gt;
+&lt;p&gt;Standalone version download available on &lt;a href=&quot;http://dbeaver.jkiss.org/download/&quot;&gt;http://dbeaver.jkiss.org/download/&lt;/a&gt;&lt;br /&gt;
+Source code: &lt;a href=&quot;https://github.com/serge-rider/dbeaver&quot;&gt;https://github.com/serge-rider/dbeaver&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 04 Nov 2012 16:30:36 +0000</pubDate>
+ <dc:creator>sriderdp1</dc:creator>
+ <guid isPermaLink="false">507775 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/dbeaver#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse Vagrant Tooling</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-vagrant-tooling</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2016-02-02 16:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-04-03 12:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse.org%22&quot;&gt;Eclipse.org&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rgrunberg/listings&quot; title=&quot;Roland Grunberg&quot;&gt;Roland Grunberg&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Eclipse Vagrant Tooling plugin allows users a simple way to manage Vagrant Boxes, and Virtual Machines as one might do with the &#039;vagrant&#039; commandline tool.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 02 Feb 2016 21:55:39 +0000</pubDate>
+ <dc:creator>rgrunberg</dc:creator>
+ <guid isPermaLink="false">2706342 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-vagrant-tooling#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse Docker Tooling</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-docker-tooling</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2016-02-02 16:42&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-04-03 12:45&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse.org%22&quot;&gt;Eclipse.org&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rgrunberg/listings&quot; title=&quot;Roland Grunberg&quot;&gt;Roland Grunberg&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Eclipse Docker Tooling plugin provides the ability to manage Docker images and containers from within the Eclipse IDE.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 02 Feb 2016 21:42:02 +0000</pubDate>
+ <dc:creator>rgrunberg</dc:creator>
+ <guid isPermaLink="false">2706327 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-docker-tooling#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse Copyright Generator</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-copyright-generator</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-04-01 07:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-04-03 11:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jabresson/listings&quot; title=&quot;Jeremie Bresson&quot;&gt;Jeremie Bresson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Plugin for Eclipse IDE to add and manage copyright headers at the beginning of the source files.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 01 Apr 2017 11:55:22 +0000</pubDate>
+ <dc:creator>jabresson</dc:creator>
+ <guid isPermaLink="false">3374223 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-copyright-generator#comments</comments>
+  </item>
+  <item>
+    <title>Spring Tool Suite (STS) for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/spring-tool-suite-sts-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/STS_Eclipse_Rating_1_1.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2014-07-11 12:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-04-03 05:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mlippert/listings&quot; title=&quot;Martin Lippert&quot;&gt;Martin Lippert&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Spring Tool Suite™ (STS) provides the best Eclipse-powered development environment for building Spring-powered enterprise applications. STS supplies tools for all of the latest enterprise Java and Spring, and comes on top of the latest Eclipse releases.&lt;/p&gt;
+&lt;p&gt;Included with STS is the developer edition of Pivotal tc Server, the drop-in replacement for Apache Tomcat that’s optimized for Spring. With its Spring Insight console, tc Server Developer Edition provides a graphical real-time view of application performance metrics that lets developers identify and diagnose problems from their desktops.&lt;/p&gt;
+&lt;p&gt;STS supports application targeting to local, virtual and cloud-based servers. It is freely available for development and internal business operations use with no time limits.&lt;/p&gt;
+&lt;h2&gt;Spring Application Tools&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Spring project, bean and XML file wizards&lt;/li&gt;
+&lt;li&gt;Spring 3 + 4 support including @Configuration and @Bean styles as well as bean profiles&lt;/li&gt;
+&lt;li&gt;Advanced code completion, content-assist, validation and quick-fix support for Spring apps&lt;/li&gt;
+&lt;li&gt;Refactoring support for Spring XML and @Configuration styles&lt;/li&gt;
+&lt;li&gt;Graphical Spring configuration editor&lt;/li&gt;
+&lt;li&gt;Spring Web Flow, Spring Batch, and Spring Integration visual development tools&lt;/li&gt;
+&lt;li&gt;Spring Roo project wizard and development shell&lt;/li&gt;
+&lt;li&gt;Spring Application blue prints and best practice validation&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Flexible Deployment Targets&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Support for all the most common Java EE application servers&lt;/li&gt;
+&lt;li&gt;Advanced support for Pivotal tc Server&lt;/li&gt;
+&lt;li&gt;Full IDE integration for Cloud Foundry, including real debugging in the cloud&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Fri, 11 Jul 2014 16:41:17 +0000</pubDate>
+ <dc:creator>mlippert</dc:creator>
+ <guid isPermaLink="false">1794107 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/spring-tool-suite-sts-eclipse#comments</comments>
+  </item>
+  </channel>
+</rss>

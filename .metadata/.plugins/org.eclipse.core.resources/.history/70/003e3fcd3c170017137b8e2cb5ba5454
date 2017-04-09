@@ -1,0 +1,92 @@
+'''
+Created on Apr 2, 2017
+
+@author: Tycho
+Data science asignment 5
+Excercise 6
+Logistic regression
+'''
+from __future__ import division
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+import random
+
+
+def main():
+    print "Doing logistic regression things."
+    
+    #Iris 2D1 train and test: sepel length, sepel width
+    irisTrainOnePath = "Iris2D1_train.txt" 
+    xIrisTrainOne, yIrisTrainOne = getData(irisTrainOnePath) 
+    
+    irisTestOnePath = "Iris2D1_test.txt"
+    xIrisTestOne, yIrisTestOne = getData(irisTestOnePath)
+    
+    #Iris 2D2 train and test: sepel length, petal length
+    irisTrainTwoPath = "Iris2D2_train.txt"
+    xIrisTrainTwo, yIrisTrainTwo = getData(irisTrainTwoPath)
+    
+    irisTestTwoPath = "Iris2D2_test.txt"
+    xIrisTestTwo, yIrisTestTwo = getData(irisTestTwoPath)
+    
+    logisticRegression(xIrisTrainOne, yIrisTrainOne, xIrisTestOne)
+    
+#     scatterPlotIrisData(xIrisTrainOne, yIrisTrainOne, "Iris 2D1 training data.", "sepel length", "sepel width")
+#     scatterPlotIrisData(xIrisTestOne, yIrisTestOne, "Iris 2D1 test data.", "sepel length", "sepel width")
+#     scatterPlotIrisData(xIrisTrainTwo, yIrisTrainTwo, "Iris 2D2 training data.", "sepel length", "petal length")
+#     scatterPlotIrisData(xIrisTestTwo, yIrisTestTwo, "Iris 2D2 test data.", "sepel length", "petal length")
+
+
+def getData(filePath):
+    '''
+    Retrieve the iris data from the given file path and return the x and y vectors. 
+    '''
+    file = np.loadtxt(filePath)    
+    x = file[:, :-1]
+    y = file[:, -1]
+    return x, y
+
+def scatterPlotIrisData(x, y, title, xlabel, ylabel):
+    addTitle = "\n class 1 = red, class 2 = blue."
+    for i in range(len(x)):
+        if y[i] == 1:
+            plt.scatter(x[i][0],x[i][1], c = "red")
+        elif y[i] == 0:
+            plt.scatter(x[i][0],x[i][1], c = "blue")
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.title(title + addTitle)
+    plt.show()
+
+
+def logisticRegression(training_data_matrix, iris_labels, test_data_matrix):
+    N, num_feat = training_data_matrix.shape
+    onevec = np.ones((N,1))
+    #Append a column of ones to the data matrix
+    X = np.concatenate((onevec, training_data_matrix), axis = 1)
+    # Let's turn the admission labels into +/- 1 labels
+    y = (iris_labels-0.5)*2
+    
+    
+    np.random.seed(0)
+    w = 0.1*np.random.randn(num_feat + 1)
+    L = logistic_insample(X, y, w)
+    print(L, w)
+    
+
+def logistic_insample(X, y, w):
+    N, num_feat = X.shape
+    E = 0
+    print(y[0]*np.dot(w,X[0,:]))
+    for n in range(N):
+        E += (1/N)*np.log(1 + np.exp(-y[n]*np.dot(w,X[n,:])))
+    return E
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()

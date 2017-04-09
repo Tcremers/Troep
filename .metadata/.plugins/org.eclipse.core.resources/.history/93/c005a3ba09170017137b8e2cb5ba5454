@@ -1,0 +1,18 @@
+# '''
+# Created on Mar 26, 2017
+# 
+# @author: Tycho
+# '''
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+
+
+Mean = [2,3]
+Sigma = np.array([[5, 1], [1, 2]])
+x, y = np.random.multivariate_normal(Mean, Sigma, 100).T
+DataSigma = np.cov(x,y)
+X = np.array([x,y])
+
+for i in X:
+    print x
