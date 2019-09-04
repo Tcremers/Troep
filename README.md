@@ -1,3 +1,3 @@
 # Bioinformatics-Mcs
 
-This is the first repo for most programs wirtting for the master program bioinforamtics.
+General backup of coding projects. Contains miscellaneous scripts of all shapes and sizes.
